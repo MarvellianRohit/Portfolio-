@@ -1,0 +1,91 @@
+h1 {
+    color: white;
+    margin: 30px;
+    padding-left: 30px;
+    font-size: 65px;
+    font-style: inherit;
+    font-family:  Brush Script MT;
+    
+}
+
+* {
+    
+}
+.header *{
+    
+}
+.header{
+    
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+    
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: #969490;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+body{
+    
+    
+    background-color: #969490;
+}
+
+a:hover{
+    color: red;
+}
+
+a:visited{
+    color: white;
+}
+
+.Menu{
+    margin-right: 30px;
+
+}
+
+.Menu a{
+    margin-left: 20px;
+}
+
+.game{
+    position: relative;
+}
+
+.game p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: red;
+}
+
+.game:hover p{
+    opacity: 1;
+}
+
+.game:hover img{
+    opacity: 0.33;
+}
